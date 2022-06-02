@@ -1,0 +1,144 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    background: #E5E5E5;    
+    padding: 308px 0;
+    min-width: 1440px;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0 60px;
+    list-style: none;
+    cursor: pointer;
+}
+.nav-list .nav-item {
+    display: inline-block;
+    position: relative;
+    padding: 30px 25px 29px;
+    margin: 0 25px;
+    background: #FFFFFF;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;    
+}
+.nav { 
+    background: #000000;
+    border: 2px solid #000000;    
+}
+.nav.gradient {
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 127.92%);  
+    height: 96px;
+    padding: 2px 0;
+    border: 0;
+    margin-top: 211px;
+}
+.nav-list .nav-item::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 48px 0 48px 25px;
+    border-color: transparent transparent transparent #FFFFFF;
+}
+.nav-item a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+
+}
+.nav-item a::after {
+    content: " ";
+    position: absolute;
+    left: -25px;
+    top: 48px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 48px 25px;
+    border-color: transparent transparent #FFFFFF transparent;
+}
+.nav-item a::before {
+    content: " ";
+    position: absolute;
+    left: -25px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 48px 0px;
+    border-color: transparent #FFFFFF transparent transparent;    
+}
+.nav-list .nav-item:hover {
+    background: #cccccc;
+}
+.nav-list .nav-item:hover:after {
+    border-left-color: #cccccc;  
+}
+.nav-list .nav-item:hover a:before {
+    border-right-color: #cccccc;
+}
+.nav-list .nav-item:hover a:after {
+    border-bottom-color: #cccccc;
+}
+.gradient .nav-list .nav-item:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.7); 
+}
+.gradient .nav-list .nav-item:hover:after {
+    border-left-color: rgba(255, 255, 255, 0.7);  
+}
+.gradient .nav-list .nav-item:hover a:before {
+    border-right-color: rgba(255, 255, 255, 0.7); 
+}
+.gradient .nav-list .nav-item:hover a:after {
+    border-bottom-color: rgba(255, 255, 255, 0.7); 
+}

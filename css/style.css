@@ -142,3 +142,86 @@ body {
 .gradient .nav-list .nav-item:hover a:after {
     border-bottom-color: rgba(255, 255, 255, 0.7); 
 }
+/*
+body {
+    background: #E5E5E5;    
+    padding: 308px 0;
+    min-width: 1440px;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0 60px;
+    list-style: none;
+    cursor: pointer;
+}
+.nav-list .nav-item {
+    display: inline-block;
+    position: relative;
+    padding: 30px 25px 29px;
+    margin: 0 25px;
+    background: #FFFFFF;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;    
+}
+.nav { 
+    background: #000000;
+    border: 2px solid #000000;    
+}
+.nav.gradient {
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 127.92%);  
+    height: 96px;
+    padding: 2px 0;
+    border: 0;
+    margin-top: 211px;
+}
+.nav-item a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+.nav-item a::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 48px 0 48px 25px;
+    border-color: transparent transparent transparent #FFFFFF;
+}
+.nav-item a::before {
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: -25px;
+    border-style: solid;
+    border-width: 48px 0 48px 25px;
+    border-color: #FFFFFF  #FFFFFF #FFFFFF transparent;  
+}
+.nav-list .nav-item:hover {
+    background: #cccccc;
+}
+.gradient .nav-list .nav-item:hover { 
+    background: rgba(255, 255, 255, 0.7); 
+    opacity: 1;
+}
+.nav-list .nav-item:hover a:after {
+    border-color: transparent transparent transparent #cccccc;
+}
+.gradient .nav-list .nav-item:hover a:after {    
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.7);
+}
+.nav-list .nav-item:hover a:before {
+    border-color: #cccccc  #cccccc #cccccc transparent; 
+}
+.gradient .nav-item:hover a:before {
+    border-color: rgba(255, 255, 255, 0.7)  rgba(255, 255, 255, 0.7) rgba(255, 255, 255, 0.7) transparent;     
+}*/
